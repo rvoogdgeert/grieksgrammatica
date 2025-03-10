@@ -161,219 +161,219 @@
             answer: "acc mev",
         },
         {
-            id: 67,
+            id: 31,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινός",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινός",
             answer: "nom enk m",
         },
         {
-            id: 68,
+            id: 32,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινή",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινή",
             answer: "nom enk f",
         },
         {
-            id: 69,
+            id: 33,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινόν",
             answer: "nom enk o",
         },
         {
-            id: 70,
+            id: 34,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινοῦ",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινοῦ",
             answer: "gen enk m",
         },
         {
-            id: 71,
+            id: 35,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινῆς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινῆς",
             answer: "gen enk f",
         },
         {
-            id: 72,
+            id: 36,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινοῦ",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινοῦ",
             answer: "gen enk o",
         },
         {
-            id: 73,
+            id: 37,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινόν",
             answer: "acc enk m",
         },
         {
-            id: 74,
+            id: 38,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινήν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινήν",
             answer: "acc enk f",
         },
         {
-            id: 75,
+            id: 39,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινόν",
             answer: "acc enk o",
         },
         {
-            id: 76,
+            id: 40,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινοί",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινοί",
             answer: "nom mev m",
         },
         {
-            id: 77,
+            id: 41,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δειναί",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δειναί",
             answer: "nom mev f",
         },
         {
-            id: 78,
+            id: 42,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινά",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινά",
             answer: "nom mev o",
         },
         {
-            id: 79,
+            id: 43,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινῶν",
             answer: "gen mev o",
         },
         {
-            id: 80,
+            id: 44,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινῶν",
             answer: "gen mev f",
         },
         {
-            id: 81,
+            id: 45,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινῶν",
             answer: "gen mev o",
         },
         {
-            id: 82,
+            id: 46,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινούς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινούς",
             answer: "acc mev m",
         },
         {
-            id: 83,
+            id: 47,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινάς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινάς",
             answer: "acc mev f",
         },
         {
-            id: 84,
+            id: 48,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. δεινά",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. δεινά",
             answer: "acc mev o",
         },
         {
-            id: 85,
+            id: 49,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρός",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρός",
             answer: "nom enk m",
         },
         {
-            id: 86,
+            id: 50,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρά",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρά",
             answer: "nom enk f",
         },
         {
-            id: 87,
+            id: 51,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρόν",
             answer: "nom enk o",
         },
         {
-            id: 88,
+            id: 52,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακροῦ",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακροῦ",
             answer: "gen enk m",
         },
         {
-            id: 89,
+            id: 53,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρᾶς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρᾶς",
             answer: "gen enk f",
         },
         {
-            id: 90,
+            id: 54,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακροῦ",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακροῦ",
             answer: "gen enk o",
         },
         {
-            id: 91,
+            id: 55,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρόν",
             answer: "acc enk m",
         },
         {
-            id: 92,
+            id: 56,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακράν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακράν",
             answer: "acc enk f",
         },
         {
-            id: 93,
+            id: 57,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρόν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρόν",
             answer: "acc enk o",
         },
         {
-            id: 94,
+            id: 58,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακροί",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακροί",
             answer: "nom mev m",
         },
         {
-            id: 95,
+            id: 59,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακραί",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακραί",
             answer: "nom mev f",
         },
         {
-            id: 96,
+            id: 60,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρά",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρά",
             answer: "nom mev o",
         },
         {
-            id: 97,
+            id: 61,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρῶν",
             answer: "gen mev m",
         },
         {
-            id: 98,
+            id: 62,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρῶν",
             answer: "gen mev f",
         },
         {
-            id: 99,
+            id: 63,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρῶν",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρῶν",
             answer: "gen mev o",
         },
         {
-            id: 100,
+            id: 64,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρούς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρούς",
             answer: "acc mev m",
         },
         {
-            id: 101,
+            id: 65,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακράς",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακράς",
             answer: "acc mev f",
         },
         {
-            id: 102,
+            id: 66,
             question:
-                "geef de naamva, het getal, en het geslacht van het bijv. nw. μακρά",
+                "geef de naamval, het getal, en het geslacht van het bijv. nw. μακρά",
             answer: "acc mev o",
         },
     ];

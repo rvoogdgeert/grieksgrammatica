@@ -4,53 +4,53 @@
     // Define flash cards data structure
     // Create a shuffled version of the flashcards
     const flashCards = [
-        // μάχη (battle - feminine)
-        { id:  1, question: "ἡ μάχη", answer: "nom ev" },
-        { id:  2, question: "τῆς μάχης", answer: "gen ev" },
-        { id:  3, question: "τῇ μάχῃ", answer: "dat ev" },
-        { id:  4, question: "τὴν μάχην", answer: "acc ev" },
-        { id:  5, question: "αἱ μάχαι", answer: "nom mv" },
-        { id:  6, question: "τῶν μαχῶν", answer: "gen mv" },
-        { id:  7, question: "ταῖς μάχαις", answer: "dat mv" },
-        { id:  8, question: "τὰς μάχας", answer: "acc mv" },
-        
-        // χώρα (country/land - feminine)
-        { id:  9, question: "ἡ χώρα", answer: "nom ev" },
-        { id: 10, question: "τῆς χώρας", answer: "gen ev" },
-        { id: 11, question: "τῇ χώρᾳ", answer: "dat ev" },
-        { id: 12, question: "τὴν χώραν", answer: "acc ev" },
-        { id: 13, question: "αἱ χῶραι", answer: "nom mv" },
-        { id: 14, question: "τῶν χωρῶν", answer: "gen mv" },
-        { id: 15, question: "ταῖς χώραις", answer: "dat mv" },
-        { id: 16, question: "τὰς χώρας", answer: "acc mv" },
-        
-        //// δεσπότης (master - masculine)
-        //{ id: 17, question: "ὁ δεσπότης", answer: "nom ev" },
-        //{ id: 18, question: "τοῦ δεσπότου", answer: "gen ev" },
-        //{ id: 19, question: "τῷ δεσπότῃ", answer: "dat ev" },
-        //{ id: 20, question: "τὸν δεσπότην", answer: "acc ev" },
-        //{ id: 21, question: "οἱ δεσπόται", answer: "nom mv" },
-        //{ id: 22, question: "τῶν δεσποτῶν", answer: "gen mv" },
-        //{ id: 23, question: "τοῖς δεσπόταις", answer: "dat mv" },
-        //{ id: 24, question: "τοὺς δεσπότας", answer: "acc mv" },
+        //// μάχη (battle - feminine)
+        //{ id:  1, question: "ἡ μάχη", answer: "nom ev" },
+        //{ id:  2, question: "τῆς μάχης", answer: "gen ev" },
+        //{ id:  3, question: "τῇ μάχῃ", answer: "dat ev" },
+        //{ id:  4, question: "τὴν μάχην", answer: "acc ev" },
+        //{ id:  5, question: "αἱ μάχαι", answer: "nom mv" },
+        //{ id:  6, question: "τῶν μαχῶν", answer: "gen mv" },
+        //{ id:  7, question: "ταῖς μάχαις", answer: "dat mv" },
+        //{ id:  8, question: "τὰς μάχας", answer: "acc mv" },
         //
-        //// δοῦλος (slave - masculine)
-        //{ id: 25, question: "ὁ δοῦλος", answer: "nom ev" },
-        //{ id: 26, question: "τοῦ δούλου", answer: "gen ev" },
-        //{ id: 27, question: "τῷ δούλῳ", answer: "dat ev" },
-        //{ id: 28, question: "τὸν δοῦλον", answer: "acc ev" },
-        //{ id: 29, question: "οἱ δοῦλοι", answer: "nom mv" },
-        //{ id: 30, question: "τῶν δούλων", answer: "gen mv" },
-        //{ id: 31, question: "τοῖς δούλοις", answer: "dat mv" },
-        //{ id: 32, question: "τοὺς δούλους", answer: "acc mv" },
-        //
-        //// θηρίον (beast/animal - neuter)
-        //{ id: 33, question: "τὸ θηρίον", answer: "nom acc ev" },
-        //{ id: 34, question: "τοῦ θηρίου", answer: "gen ev" },
-        //{ id: 35, question: "τῷ θηρίῳ", answer: "dat ev" },
-        //{ id: 36, question: "τὰ θηρία", answer: "nom acc mv" },
-        //{ id: 37, question: "τῶν θηρίων", answer: "gen mv" },
-        //{ id: 38, question: "τοῖς θηρίοις", answer: "dat mv" },
+        //// χώρα (country/land - feminine)
+        //{ id:  9, question: "ἡ χώρα", answer: "nom ev" },
+        //{ id: 10, question: "τῆς χώρας", answer: "gen ev" },
+        //{ id: 11, question: "τῇ χώρᾳ", answer: "dat ev" },
+        //{ id: 12, question: "τὴν χώραν", answer: "acc ev" },
+        //{ id: 13, question: "αἱ χῶραι", answer: "nom mv" },
+        //{ id: 14, question: "τῶν χωρῶν", answer: "gen mv" },
+        //{ id: 15, question: "ταῖς χώραις", answer: "dat mv" },
+        //{ id: 16, question: "τὰς χώρας", answer: "acc mv" },
+        
+        // δεσπότης (master - masculine)
+        { id: 17, question: "ὁ δεσπότης", answer: "nom ev" },
+        { id: 18, question: "τοῦ δεσπότου", answer: "gen ev" },
+        { id: 19, question: "τῷ δεσπότῃ", answer: "dat ev" },
+        { id: 20, question: "τὸν δεσπότην", answer: "acc ev" },
+        { id: 21, question: "οἱ δεσπόται", answer: "nom mv" },
+        { id: 22, question: "τῶν δεσποτῶν", answer: "gen mv" },
+        { id: 23, question: "τοῖς δεσπόταις", answer: "dat mv" },
+        { id: 24, question: "τοὺς δεσπότας", answer: "acc mv" },
+        
+        // δοῦλος (slave - masculine)
+        { id: 25, question: "ὁ δοῦλος", answer: "nom ev" },
+        { id: 26, question: "τοῦ δούλου", answer: "gen ev" },
+        { id: 27, question: "τῷ δούλῳ", answer: "dat ev" },
+        { id: 28, question: "τὸν δοῦλον", answer: "acc ev" },
+        { id: 29, question: "οἱ δοῦλοι", answer: "nom mv" },
+        { id: 30, question: "τῶν δούλων", answer: "gen mv" },
+        { id: 31, question: "τοῖς δούλοις", answer: "dat mv" },
+        { id: 32, question: "τοὺς δούλους", answer: "acc mv" },
+        
+        // θηρίον (beast/animal - neuter)
+        { id: 33, question: "τὸ θηρίον", answer: "nom acc ev" },
+        { id: 34, question: "τοῦ θηρίου", answer: "gen ev" },
+        { id: 35, question: "τῷ θηρίῳ", answer: "dat ev" },
+        { id: 36, question: "τὰ θηρία", answer: "nom acc mv" },
+        { id: 37, question: "τῶν θηρίων", answer: "gen mv" },
+        { id: 38, question: "τοῖς θηρίοις", answer: "dat mv" },
         //{
         //    id: 31,
         //    question:

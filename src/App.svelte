@@ -24,33 +24,33 @@
         { id: 15, question: "ταῖς χώραις", answer: "dat mv" },
         { id: 16, question: "τὰς χώρας", answer: "acc mv" },
         
-        // δεσπότης (master - masculine)
-        { id: 17, question: "ὁ δεσπότης", answer: "nom ev" },
-        { id: 18, question: "τοῦ δεσπότου", answer: "gen ev" },
-        { id: 19, question: "τῷ δεσπότῃ", answer: "dat ev" },
-        { id: 20, question: "τὸν δεσπότην", answer: "acc ev" },
-        { id: 21, question: "οἱ δεσπόται", answer: "nom mv" },
-        { id: 22, question: "τῶν δεσποτῶν", answer: "gen mv" },
-        { id: 23, question: "τοῖς δεσπόταις", answer: "dat mv" },
-        { id: 24, question: "τοὺς δεσπότας", answer: "acc mv" },
-        
-        // δοῦλος (slave - masculine)
-        { id: 25, question: "ὁ δοῦλος", answer: "nom ev" },
-        { id: 26, question: "τοῦ δούλου", answer: "gen ev" },
-        { id: 27, question: "τῷ δούλῳ", answer: "dat ev" },
-        { id: 28, question: "τὸν δοῦλον", answer: "acc ev" },
-        { id: 29, question: "οἱ δοῦλοι", answer: "nom mv" },
-        { id: 30, question: "τῶν δούλων", answer: "gen mv" },
-        { id: 31, question: "τοῖς δούλοις", answer: "dat mv" },
-        { id: 32, question: "τοὺς δούλους", answer: "acc mv" },
-        
-        // θηρίον (beast/animal - neuter)
-        { id: 33, question: "τὸ θηρίον", answer: "nom acc ev" },
-        { id: 34, question: "τοῦ θηρίου", answer: "gen ev" },
-        { id: 35, question: "τῷ θηρίῳ", answer: "dat ev" },
-        { id: 36, question: "τὰ θηρία", answer: "nom acc mv" },
-        { id: 37, question: "τῶν θηρίων", answer: "gen mv" },
-        { id: 38, question: "τοῖς θηρίοις", answer: "dat mv" },
+        //// δεσπότης (master - masculine)
+        //{ id: 17, question: "ὁ δεσπότης", answer: "nom ev" },
+        //{ id: 18, question: "τοῦ δεσπότου", answer: "gen ev" },
+        //{ id: 19, question: "τῷ δεσπότῃ", answer: "dat ev" },
+        //{ id: 20, question: "τὸν δεσπότην", answer: "acc ev" },
+        //{ id: 21, question: "οἱ δεσπόται", answer: "nom mv" },
+        //{ id: 22, question: "τῶν δεσποτῶν", answer: "gen mv" },
+        //{ id: 23, question: "τοῖς δεσπόταις", answer: "dat mv" },
+        //{ id: 24, question: "τοὺς δεσπότας", answer: "acc mv" },
+        //
+        //// δοῦλος (slave - masculine)
+        //{ id: 25, question: "ὁ δοῦλος", answer: "nom ev" },
+        //{ id: 26, question: "τοῦ δούλου", answer: "gen ev" },
+        //{ id: 27, question: "τῷ δούλῳ", answer: "dat ev" },
+        //{ id: 28, question: "τὸν δοῦλον", answer: "acc ev" },
+        //{ id: 29, question: "οἱ δοῦλοι", answer: "nom mv" },
+        //{ id: 30, question: "τῶν δούλων", answer: "gen mv" },
+        //{ id: 31, question: "τοῖς δούλοις", answer: "dat mv" },
+        //{ id: 32, question: "τοὺς δούλους", answer: "acc mv" },
+        //
+        //// θηρίον (beast/animal - neuter)
+        //{ id: 33, question: "τὸ θηρίον", answer: "nom acc ev" },
+        //{ id: 34, question: "τοῦ θηρίου", answer: "gen ev" },
+        //{ id: 35, question: "τῷ θηρίῳ", answer: "dat ev" },
+        //{ id: 36, question: "τὰ θηρία", answer: "nom acc mv" },
+        //{ id: 37, question: "τῶν θηρίων", answer: "gen mv" },
+        //{ id: 38, question: "τοῖς θηρίοις", answer: "dat mv" },
         //{
         //    id: 31,
         //    question:

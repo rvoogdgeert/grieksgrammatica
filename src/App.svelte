@@ -4,205 +4,106 @@
     // Define flash cards data structure
     // Create a shuffled version of the flashcards
     const flashCards = [
-        {
-            id: 1,
-            question: "geef de naamval en getal van het zelfst. nw. ἡ μάχη",
-            answer: "nom enk",
-        },
-        {
-            id: 2,
-            question: "geef de naamval en getal van het zelfst. nw. τῆς μάχης ",
-            answer: "gen enk",
-        },
-        {
-            id: 3,
-            question: "geef de naamval en getal van het zelfst. nw. τὴν μάχην",
-            answer: "acc enk",
-        },
-        {
-            id: 4,
-            question: "geef de naamval en getal van het zelfst. nw. αἱ μάχαι",
-            answer: "nom mv",
-        },
-        {
-            id: 5,
-            question: "geef de naamval en getal van het zelfst. nw. τῶν μαχῶν",
-            answer: "gen mv",
-        },
-        {
-            id: 6,
-            question: "geef de naamval en getal van het zelfst. nw. τὰς μάχας",
-            answer: "acc mv",
-        },
-        {
-            id: 7,
-            question: "geef de naamval en getal van het zelfst. nw. ἡ χώρα",
-            answer: "nom enk",
-        },
-        {
-            id: 8,
-            question: "geef de naamval en getal van het zelfst. nw. ὁ δεσπότης",
-            answer: "nom enk",
-        },
-        {
-            id: 9,
-            question: "geef de naamval en getal van het zelfst. nw. ὁ δοῦλος",
-            answer: "nom enk",
-        },
-        {
-            id: 10,
-            question: "geef de naamval en getal van het zelfst. nw. τὸ θηρίον",
-            answer: "nom acc enk",
-        },
-        {
-            id: 11,
-            question: "geef de naamval en getal van het zelfst. nw. τῆς χώρας",
-            answer: "gen enk",
-        },
-        {
-            id: 12,
-            question:
-                "geef de naamval en getal van het zelfst. nw. τοῦ δεσπότου",
-            answer: "gen enk",
-        },
-        {
-            id: 13,
-            question: "geef de naamval en getal van het zelfst. nw. τοῦ δούλου",
-            answer: "gen enk",
-        },
-        {
-            id: 14,
-            question: "geef de naamval en getal van het zelfst. nw. τοῦ θηρίου",
-            answer: "gen enk",
-        },
-        {
-            id: 15,
-            question: "geef de naamval en getal van het zelfst. nw. τὴν χώραν",
-            answer: "acc enk",
-        },
-        {
-            id: 16,
-            question:
-                "geef de naamval en getal van het zelfst. nw. τὸν δεσπότην",
-            answer: "acc enk",
-        },
-        {
-            id: 17,
-            question: "geef de naamval en getal van het zelfst. nw. τὸν δοῦλον",
-            answer: "acc enk",
-        },
-        {
-            id: 19,
-            question: "geef de naamval en getal van het zelfst. nw. αἱ χῶραι",
-            answer: "nom mv",
-        },
-        {
-            id: 20,
-            question:
-                "geef de naamval en getal van het zelfst. nw. οἱ δεσπόται",
-            answer: "nom mv",
-        },
-        {
-            id: 21,
-            question: "geef de naamval en getal van het zelfst. nw. οἱ δοῦλοι",
-            answer: "nom mv",
-        },
-        {
-            id: 22,
-            question: "geef de naamval en getal van het zelfst. nw. τὰ θηρία",
-            answer: "nom acc mv",
-        },
-        {
-            id: 23,
-            question: "geef de naamval en getal van het zelfst. nw. τῶν χώρων",
-            answer: "gen mv",
-        },
-        {
-            id: 24,
-            question:
-                "geef de naamval en getal van het zelfst. nw. τῶν δεσποτῶν",
-            answer: "gen mv",
-        },
-        {
-            id: 25,
-            question: "geef de naamval en getal van het zelfst. nw. τῶν δούλων",
-            answer: "gen mv",
-        },
-        {
-            id: 26,
-            question: "geef de naamval en getal van het zelfst. nw. τῶν θηρίων",
-            answer: "gen mv",
-        },
-        {
-            id: 27,
-            question: "geef de naamval en getal van het zelfst. nw. τὰς χώρας",
-            answer: "acc mv",
-        },
-        {
-            id: 28,
-            question:
-                "geef de naamval en getal van het zelfst. nw. τοὺς δεσπότας",
-            answer: "acc mv",
-        },
-        {
-            id: 29,
-            question:
-                "geef de naamval en getal van het zelfst. nw. τοὺς δούλους",
-            answer: "acc mv",
-        },
+        // μάχη (battle - feminine)
+        { id:  1, question: "ἡ μάχη", answer: "nom ev" },
+        { id:  2, question: "τῆς μάχης", answer: "gen ev" },
+        { id:  3, question: "τῇ μάχῃ", answer: "dat ev" },
+        { id:  4, question: "τὴν μάχην", answer: "acc ev" },
+        { id:  5, question: "αἱ μάχαι", answer: "nom mv" },
+        { id:  6, question: "τῶν μαχῶν", answer: "gen mv" },
+        { id:  7, question: "ταῖς μάχαις", answer: "dat mv" },
+        { id:  8, question: "τὰς μάχας", answer: "acc mv" },
+        
+        // χώρα (country/land - feminine)
+        { id:  9, question: "ἡ χώρα", answer: "nom ev" },
+        { id: 10, question: "τῆς χώρας", answer: "gen ev" },
+        { id: 11, question: "τῇ χώρᾳ", answer: "dat ev" },
+        { id: 12, question: "τὴν χώραν", answer: "acc ev" },
+        { id: 13, question: "αἱ χῶραι", answer: "nom mv" },
+        { id: 14, question: "τῶν χωρῶν", answer: "gen mv" },
+        { id: 15, question: "ταῖς χώραις", answer: "dat mv" },
+        { id: 16, question: "τὰς χώρας", answer: "acc mv" },
+        
+        // δεσπότης (master - masculine)
+        { id: 17, question: "ὁ δεσπότης", answer: "nom ev" },
+        { id: 18, question: "τοῦ δεσπότου", answer: "gen ev" },
+        { id: 19, question: "τῷ δεσπότῃ", answer: "dat ev" },
+        { id: 20, question: "τὸν δεσπότην", answer: "acc ev" },
+        { id: 21, question: "οἱ δεσπόται", answer: "nom mv" },
+        { id: 22, question: "τῶν δεσποτῶν", answer: "gen mv" },
+        { id: 23, question: "τοῖς δεσπόταις", answer: "dat mv" },
+        { id: 24, question: "τοὺς δεσπότας", answer: "acc mv" },
+        
+        // δοῦλος (slave - masculine)
+        { id: 25, question: "ὁ δοῦλος", answer: "nom ev" },
+        { id: 26, question: "τοῦ δούλου", answer: "gen ev" },
+        { id: 27, question: "τῷ δούλῳ", answer: "dat ev" },
+        { id: 28, question: "τὸν δοῦλον", answer: "acc ev" },
+        { id: 29, question: "οἱ δοῦλοι", answer: "nom mv" },
+        { id: 30, question: "τῶν δούλων", answer: "gen mv" },
+        { id: 31, question: "τοῖς δούλοις", answer: "dat mv" },
+        { id: 32, question: "τοὺς δούλους", answer: "acc mv" },
+        
+        // θηρίον (beast/animal - neuter)
+        { id: 33, question: "τὸ θηρίον", answer: "nom acc ev" },
+        { id: 34, question: "τοῦ θηρίου", answer: "gen ev" },
+        { id: 35, question: "τῷ θηρίῳ", answer: "dat ev" },
+        { id: 36, question: "τὰ θηρία", answer: "nom acc mv" },
+        { id: 37, question: "τῶν θηρίων", answer: "gen mv" },
+        { id: 38, question: "τοῖς θηρίοις", answer: "dat mv" },
         //{
         //    id: 31,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινός",
-        //    answer: "nom enk m",
+        //    answer: "nom ev m",
         //},
         //{
         //    id: 32,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινή",
-        //    answer: "nom enk f",
+        //    answer: "nom ev f",
         //},
         //{
         //    id: 33,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινόν",
-        //    answer: "nom enk o",
+        //    answer: "nom ev o",
         //},
         //{
         //    id: 34,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινοῦ",
-        //    answer: "gen enk m",
+        //    answer: "gen ev m",
         //},
         //{
         //    id: 35,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινῆς",
-        //    answer: "gen enk f",
+        //    answer: "gen ev f",
         //},
         //{
         //    id: 36,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινοῦ",
-        //    answer: "gen enk o",
+        //    answer: "gen ev o",
         //},
         //{
         //    id: 37,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινόν",
-        //    answer: "acc enk m",
+        //    answer: "acc ev m",
         //},
         //{
         //    id: 38,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινήν",
-        //    answer: "acc enk f",
+        //    answer: "acc ev f",
         //},
         //{
         //    id: 39,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. δεινόν",
-        //    answer: "acc enk o",
+        //    answer: "acc ev o",
         //},
         //{
         //    id: 40,
@@ -262,55 +163,55 @@
         //    id: 49,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρός",
-        //    answer: "nom enk m",
+        //    answer: "nom ev m",
         //},
         //{
         //    id: 50,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρά",
-        //    answer: "nom enk f",
+        //    answer: "nom ev f",
         //},
         //{
         //    id: 51,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρόν",
-        //    answer: "nom enk o",
+        //    answer: "nom ev o",
         //},
         //{
         //    id: 52,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακροῦ",
-        //    answer: "gen enk m",
+        //    answer: "gen ev m",
         //},
         //{
         //    id: 53,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρᾶς",
-        //    answer: "gen enk f",
+        //    answer: "gen ev f",
         //},
         //{
         //    id: 54,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακροῦ",
-        //    answer: "gen enk o",
+        //    answer: "gen ev o",
         //},
         //{
         //    id: 55,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρόν",
-        //    answer: "acc enk m",
+        //    answer: "acc ev m",
         //},
         //{
         //    id: 56,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακράν",
-        //    answer: "acc enk f",
+        //    answer: "acc ev f",
         //},
         //{
         //    id: 57,
         //    question:
         //        "geef de naamval en het getal van het bijv. nw. μακρόν",
-        //    answer: "acc enk o",
+        //    answer: "acc ev o",
         //},
         //{
         //    id: 58,
